@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Singh - Sticker Portfolio ✨</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Floating Background Stickers -->
+    <div class="floating-stickers" id="floatingStickers"></div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo sticker-bounce">
+                <span class="emoji-sticker">🚀</span>
+                <span>Ankit Singh</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link sticker-btn">Home</a></li>
+                <li><a href="#about" class="nav-link sticker-btn">About</a></li>
+                <li><a href="#skills" class="nav-link sticker-btn">Skills</a></li>
+                <li><a href="#projects" class="nav-link sticker-btn">Projects</a></li>
+                <li><a href="#experience" class="nav-link sticker-btn">Experience</a></li>
+                <li><a href="#contact" class="nav-link sticker-btn">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="sticker-card mega-sticker">
+                <div class="sticker-peel"></div>
+                <h1 class="glitch" data-text="Ankit Singh">Ankit Singh</h1>
+                <div class="title-stickers">
+                    <span class="mini-sticker">💻</span>
+                    <span class="mini-sticker">🤖</span>
+                    <span class="mini-sticker">☕</span>
+                </div>
+                <p class="hero-subtitle">AI/ML Enthusiast • Java Developer • Tech Explorer</p>
+                <p class="hero-description">Motivated Computer Science Engineering student with strong interest in Artificial Intelligence, Machine Learning, and Software Development. Hands-on industry exposure through multiple internships.</p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button sticker-btn primary-btn">
+                        <span>View Projects</span>
+                        <span class="btn-sticker">✨</span>
+                    </a>
+                    <a href="#contact" class="cta-button sticker-btn secondary-btn">
+                        <span>Get in Touch</span>
+                        <span class="btn-sticker">📧</span>
+                    </a>
+                </div>
+
+                <div class="social-stickers">
+                    <a href="https://github.com/Ankitsingh9155" target="_blank" class="social-sticker">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ankit-singh-606968239/" target="_blank" class="social-sticker">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:ankit7079777320@gmail.com" class="social-sticker">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:9155559162" class="social-sticker">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animated Sticker Elements -->
+        <div class="hero-stickers">
+            <div class="floating-emoji" style="--delay: 0s; --duration: 20s;">🎯</div>
+            <div class="floating-emoji" style="--delay: 2s; --duration: 25s;">⚡</div>
+            <div class="floating-emoji" style="--delay: 4s; --duration: 22s;">🔥</div>
+            <div class="floating-emoji" style="--delay: 1s; --duration: 18s;">🌟</div>
+            <div class="floating-emoji" style="--delay: 3s; --duration: 24s;">💡</div>
+            <div class="floating-emoji" style="--delay: 5s; --duration: 21s;">🎨</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-sticker">👨‍💻</span> About Me
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="about-grid">
+                <div class="about-card sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="card-icon">🎓</div>
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>B.Tech in Computer Science Engineering</h4>
+                        <p class="institution">Ambalika Institute of Management and Technology (AKTU)</p>
+                        <p class="duration">Aug 2023 – May 2026</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Diploma in Computer Science and Engineering</h4>
+                        <p class="institution">Mahamaya Polytechnic of Information Technology (BTEUP)</p>
+                        <p class="duration">Aug 2020 – May 2023</p>
+                    </div>
+                </div>
+
+                <div class="about-card sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="card-icon">🏆</div>
+                    <h3>Certifications</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <span class="cert-bullet">🎖️</span>
+                            <span>Ethical Hacker Training</span>
+                        </li>
+                        <li>
+                            <span class="cert-bullet">🎖️</span>
+                            <span>Tata Group - Cybersecurity Analyst Job Simulation</span>
+                        </li>
+                        <li>
+                            <span class="cert-bullet">🎖️</span>
+                            <span>Career Essentials in Cybersecurity (Microsoft & LinkedIn)</span>
+                        </li>
+                        <li>
+                            <span class="cert-bullet">🎖️</span>
+                            <span>Python for Data Science</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-sticker">⚡</span> Technical Skills
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="skills-grid">
+                <div class="skill-category sticker-card">
+                    <div class="sticker-peel"></div>
+                    <h3><span class="cat-icon">💻</span> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Data Analytics</span>
+                        <span class="skill-tag">AI/ML</span>
+                    </div>
+                </div>
+
+                <div class="skill-category sticker-card">
+                    <div class="sticker-peel"></div>
+                    <h3><span class="cat-icon">🗄️</span> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category sticker-card">
+                    <div class="sticker-peel"></div>
+                    <h3><span class="cat-icon">🛠️</span> Libraries & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">PowerBI</span>
+                        <span class="skill-tag">Microsoft Office</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-sticker">🚀</span> Featured Projects
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="projects-grid">
+                <div class="project-card sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="project-header">
+                        <div class="project-icon">🤖</div>
+                        <span class="project-badge">AI/ML</span>
+                    </div>
+                    <h3>AI-Based Class Monitoring System</h3>
+                    <p class="project-duration">Dec 2025 – Present</p>
+                    <p class="project-description">
+                        Developed an AI-based classroom monitoring system with face recognition attendance, student behavior analysis, and teacher presence monitoring using Python and OpenCV.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">OpenCV</span>
+                        <span class="tech-badge">Face Recognition</span>
+                        <span class="tech-badge">AI/ML</span>
+                    </div>
+                    <div class="project-footer">
+                        <span class="project-emoji">🎯</span>
+                        <span class="project-emoji">💡</span>
+                        <span class="project-emoji">⚡</span>
+                    </div>
+                </div>
+
+                <div class="project-card sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="project-header">
+                        <div class="project-icon">📊</div>
+                        <span class="project-badge">NLP</span>
+                    </div>
+                    <h3>Sales Prediction Website</h3>
+                    <p class="project-duration">Aug 2025 – Sep 2025</p>
+                    <p class="project-description">
+                        Developed a web application for sales prediction using machine learning algorithms and interactive data visualizations.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Machine Learning</span>
+                        <span class="tech-badge">NLP</span>
+                        <span class="tech-badge">Data Visualization</span>
+                        <span class="tech-badge">Web Development</span>
+                    </div>
+                    <div class="project-footer">
+                        <span class="project-emoji">📈</span>
+                        <span class="project-emoji">🔮</span>
+                        <span class="project-emoji">✨</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-sticker">💼</span> Work Experience
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="timeline">
+                <div class="timeline-item sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="timeline-marker">🤖</div>
+                    <div class="timeline-content">
+                        <h3>AI/ML Intern</h3>
+                        <h4>DigiCoders Technologies</h4>
+                        <p class="timeline-location">📍 Lucknow, UP</p>
+                        <p class="timeline-duration">15 June 2025 – 14 July 2025</p>
+                        <p class="timeline-description">
+                            Focused on Python, data preprocessing, and machine learning models development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="timeline-marker">☕</div>
+                    <div class="timeline-content">
+                        <h3>Java Development Intern</h3>
+                        <h4>TechnoHacks</h4>
+                        <p class="timeline-location">📍 Nasik, Maharashtra</p>
+                        <p class="timeline-duration">15 June 2025 – 14 July 2025</p>
+                        <p class="timeline-description">
+                            Handled OOP concepts and application debugging in Java development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="timeline-marker">💻</div>
+                    <div class="timeline-content">
+                        <h3>Java Intern</h3>
+                        <h4>Suven Consulta</h4>
+                        <p class="timeline-location">📍 Remote</p>
+                        <p class="timeline-duration">17 August 2022 – 13 September 2022</p>
+                        <p class="timeline-description">
+                            Covered core Java, classes, and logical problem solving.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-sticker">📬</span> Get in Touch
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="contact-grid">
+                <div class="contact-card sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <a href="mailto:ankit7079777320@gmail.com">ankit7079777320@gmail.com</a>
+                </div>
+
+                <div class="contact-card sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="contact-icon">📱</div>
+                    <h3>Phone</h3>
+                    <a href="tel:9155559162">9155559162</a>
+                </div>
+
+                <div class="contact-card sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/ankit-singh-606968239/" target="_blank">Connect with me</a>
+                </div>
+
+                <div class="contact-card sticker-card">
+                    <div class="sticker-peel"></div>
+                    <div class="contact-icon">🐙</div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/Ankitsingh9155" target="_blank">Check my repos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Made with <span class="heart-sticker">❤️</span> by Ankit Singh</p>
+            <p class="footer-emoji">✨ 🚀 💻 🤖 ⚡ 🎨 ✨</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
